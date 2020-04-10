@@ -42,4 +42,11 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
+    for (int j = 0; j < 50; j++)
+    {
+        for (int i = 0; i < 50; i++)
+        {
+            grid.DrawCell(gfx, i, j, 5 * i, 5 * i, 5 * i);
+        }
+    }
 }
