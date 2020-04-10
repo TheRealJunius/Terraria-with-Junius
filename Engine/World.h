@@ -2,7 +2,7 @@
 
 #include "Graphics.h"
 
-class Grid
+class World
 {
 private:
 	static constexpr int nCells = 50;
