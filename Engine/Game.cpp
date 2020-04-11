@@ -42,5 +42,5 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
-    grid.DrawBlocks(gfx);
+	gfx.PutPixel(1, 1, 255, 255, 255);
 }
