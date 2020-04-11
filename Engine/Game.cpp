@@ -42,9 +42,9 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
-    for (int j = 0; j < 50; j++)
+    for (int j = 0; j < World::nCells; j++)
     {
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < World::nCells; i++)
         {
             world.DrawCell(gfx, i, j, 5 * i, 5 * i, 5 * i);
         }

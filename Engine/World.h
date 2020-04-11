@@ -4,8 +4,8 @@
 
 class World
 {
-private:
-	static constexpr int nCells = 50;
+public:
+	static constexpr int nCells = 100;
 	static constexpr int cellWidth = Graphics::ScreenWidth / nCells;
 	static constexpr int cellHeight = Graphics::ScreenHeight / nCells;
 public:
