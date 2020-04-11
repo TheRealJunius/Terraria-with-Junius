@@ -46,7 +46,7 @@ void Game::ComposeFrame()
     {
         for (int i = 0; i < 50; i++)
         {
-            grid.DrawCell(gfx, i, j, 5 * i, 5 * i, 5 * i);
+            world.DrawCell(gfx, i, j, 5 * i, 5 * i, 5 * i);
         }
     }
 }

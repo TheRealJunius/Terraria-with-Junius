@@ -23,7 +23,7 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "Graphics.h"
-#include "Grid.h"
+#include "World.h"
 
 class Game
 {
@@ -43,6 +43,6 @@ private:
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
-    Grid grid;
+    World world;
 	/********************************/
 };
