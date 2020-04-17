@@ -46,4 +46,5 @@ void Game::ComposeFrame()
 	gfx.PutPixel(1, 2, 255, 255, 255);
 	gfx.PutPixel(1, 3, 255, 255, 255);
 	gfx.PutPixel(1, 4, 255, 255, 255);
+	gfx.PutPixel(2, 4, 255, 255, 255);
 }
